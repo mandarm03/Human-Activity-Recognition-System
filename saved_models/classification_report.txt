@@ -1,0 +1,15 @@
+Test Loss:     0.3385
+Test Accuracy: 0.9077 (90.77%)
+
+                    precision    recall  f1-score   support
+
+           WALKING     1.0000    0.9052    0.9503       496
+  WALKING_UPSTAIRS     0.9560    0.9236    0.9395       471
+WALKING_DOWNSTAIRS     0.8601    0.9952    0.9227       420
+           SITTING     0.7901    0.8432    0.8158       491
+          STANDING     0.8577    0.7932    0.8242       532
+            LAYING     0.9926    1.0000    0.9963       537
+
+          accuracy                         0.9077      2947
+         macro avg     0.9094    0.9101    0.9081      2947
+      weighted avg     0.9110    0.9077    0.9078      2947

@@ -1,0 +1,26 @@
+{
+  "architecture": "CNN + LSTM",
+  "input_shape": [
+    128,
+    9
+  ],
+  "num_classes": 6,
+  "cnn_filters": [
+    64,
+    128
+  ],
+  "cnn_kernel_size": 3,
+  "lstm_units": 128,
+  "dense_units": 64,
+  "dropout_rate": 0.4,
+  "learning_rate": 0.001,
+  "l2_lambda": 0.0001,
+  "optimizer": "Adam",
+  "loss": "categorical_crossentropy",
+  "training": {
+    "batch_size": 64,
+    "max_epochs": 50,
+    "val_split": 0.15,
+    "random_seed": 42
+  }
+}
